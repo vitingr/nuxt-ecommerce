@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     // "@pinia-plugin-persistedstate/nuxt",
     // "@nuxtjs/tailwindcss",
-    // "@nuxtjs/supabase",
+    "@nuxtjs/supabase",
   ],
   devtools: { enabled: true },
   postcss: {

@@ -171,7 +171,9 @@
   <Loading v-if="userStore.isLoading" />
 
   <!-- <div class="lg:pt-[150px] md:pt-[130px] pt-[80px]" /> -->
-  <slot />
+  <div class="min-h-[63.1vh]">
+    <slot />
+  </div>
 
   <Footer v-if="userStore.isLoading == false" />
 </template>
